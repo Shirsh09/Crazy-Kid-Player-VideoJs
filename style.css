@@ -1,0 +1,79 @@
+.vjs-matrix .vjs-volume-level{
+    color: white;
+    background-color: #00A6FF;
+}
+.vjs-matrix .vjs-play-progress,
+.vjs-matrix .vjs-slider-bar {
+    color: white;
+    background-color: #00A6FF;
+}
+.video-js.vjs-ended .vjs-big-play-button {
+  display: block !important;
+}
+.video-js.vjs-paused .vjs-big-play-button,
+.vjs-paused.vjs-has-started.video-js .vjs-big-play-button,
+video-js.vjs-ended .vjs-big-play-button {
+  display: block;
+}
+.video-js .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  background-color: #00A6FF;
+  font-size: 3.5em;
+  border-radius: 50%;
+}
+.video-js .vjs-big-play-button:active,
+.video-js .vjs-big-play-button:focus,
+.video-js:hover .vjs-big-play-button {
+  background-color: #00A6FF;
+}
+.video-js .vjs-big-play-button {
+  height: 2em !important;
+  width: 2em !important;
+  line-height: 1.9em !important;
+  margin-top: -1em !important;
+  margin-left: -1em;
+  border-width: 3px;
+}
+.video-js .vjs-big-play-button:before,
+.video-js .vjs-icon-play:before {
+  font-size: 50px;
+}
+.video-js .vjs-progress-holder {
+  font-size: 1.7em;
+  border-radius: 10px;
+}
+.video-js .vjs-control {
+  width: 3em;
+}
+.video-js .vjs-menu-button-inline:before {
+  width: 1.5em;
+}
+.vjs-menu-button-inline .vjs-menu {
+  left: 3em;
+}
+.video-js .vjs-mouse-display:after,
+.video-js .vjs-play-progress:after {
+  padding: 0 0.4em 0.3em;
+}
+.video-js .vjs-control-bar {
+  background-color: black;
+  color: #fff;
+  font-size: 13.1px;
+  text-shadow: 0px 0px 0px ;
+}
+.video-js .vjs-load-progress {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.vjs-texttrack-settings {
+  display: none;
+}
+.video-js .vjs-text-track-display > div > div > div{ 
+	font-size: 25px !important; 
+	line-height:33px !important;
+	padding:5px !important;
+	background:transparent !important;
+	text-shadow: 1px 1px 2px #000000;
+	display: inline-block !important;
+}
